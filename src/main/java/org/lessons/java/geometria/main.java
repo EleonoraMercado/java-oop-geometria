@@ -31,15 +31,18 @@ public class main {
 		//devo convertire il numero inserito in una sringa in un intero
 		int altezza = Integer.parseInt(scan.nextLine());
 		
+		System.out.println("Base: " + base);
+		System.out.println("Altezza: " + altezza);
+		
 		//Creo un nuovo oggetto rettangolo
 		Rettangolo rettangolo = new Rettangolo(base, altezza);
 		
 		//Stampo area retangolo
-		System.out.println("L'area del rettangolo è: " 
+		System.out.println("Area: " 
 				+ rettangolo.calcolaArea());
 		
 		//Stampo perimetro rettangolo
-		System.out.println("Il perimetro del rettangolo è: " 
+		System.out.println("Perimetro: " 
 				+ rettangolo.calcolaPerimetro());
 		
 			scan.close();
