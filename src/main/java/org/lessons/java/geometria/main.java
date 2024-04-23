@@ -46,6 +46,9 @@ public class main {
 				+ rettangolo.calcolaPerimetro());
 		
 			scan.close();
+			
+			//Stampo disegno
+			System.out.println("disegnaPerimetro");
 		
 	}
 
