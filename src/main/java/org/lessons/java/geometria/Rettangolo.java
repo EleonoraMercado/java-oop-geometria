@@ -15,6 +15,7 @@ public class Rettangolo {
 		public Rettangolo(int base, int altezza) {
 			this.base = base;
 			this.altezza = altezza;
+			
 		}
 		
 		//metodo per calcolare area
@@ -27,9 +28,7 @@ public class Rettangolo {
 			return 2 * (base + altezza);
 		}
 	
-		public class DisegnoRettangolo {
-			
-		}
+		
 		public static void disegnaRettangolo (int base, int altezza) {
 	        for (int i = 0; i < altezza; i++) {
 	            for (int j = 0; j < base; j++) {

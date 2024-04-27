@@ -45,11 +45,12 @@ public class main {
 		System.out.println("Perimetro: " 
 				+ rettangolo.calcolaPerimetro());
 		
+		
+		//Stampo disegno
+		Rettangolo.disegnaRettangolo(base, altezza);
 			scan.close();
 			
-			//Stampo disegno
-			System.out.println("disegnaPerimetro");
-		
+			
 	}
 
 };
