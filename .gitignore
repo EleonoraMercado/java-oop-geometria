@@ -25,3 +25,4 @@ replay_pid*
 .classpath
 .project
 src/main/java/org/lessons/java/.DS_Store
+bin/org/lessons/java/.DS_Store

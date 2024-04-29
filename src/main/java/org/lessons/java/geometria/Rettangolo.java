@@ -20,19 +20,19 @@ public class Rettangolo {
 		
 		//metodo per calcolare area
 		public int calcolaArea() {
-			return base * altezza;
+			return this.base * this.altezza;
 		}
 		
 		//metodo per calcolare il perimetro
 		public int calcolaPerimetro() {
-			return 2 * (base + altezza);
+			return 2 * (this.base + altezza);
 		}
 	
 		
-		public static void disegnaRettangolo (int base, int altezza) {
+		public void disegnaRettangolo (int base, int altezza) {
 	        for (int i = 0; i < altezza; i++) {
-	            for (int j = 0; j < base; j++) {
-	                if (i == 0 || i == altezza - 1 || j == 0 || j == base - 1) {
+	            for (int j = 0; j < this.base; j++) {
+	                if (i == 0 || i == this.altezza - 1 || j == 0 || j == this.base - 1) {
 	                    System.out.print("* ");
 	                } else {
 	                    System.out.print("  ");
