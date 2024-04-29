@@ -25,12 +25,12 @@ public class Rettangolo {
 		
 		//metodo per calcolare il perimetro
 		public int calcolaPerimetro() {
-			return 2 * (this.base + altezza);
+			return 2 * (this.base + this.altezza);
 		}
 	
 		
-		public void disegnaRettangolo (int base, int altezza) {
-	        for (int i = 0; i < altezza; i++) {
+		public void disegnaRettangolo () {
+	        for (int i = 0; i < this.altezza; i++) {
 	            for (int j = 0; j < this.base; j++) {
 	                if (i == 0 || i == this.altezza - 1 || j == 0 || j == this.base - 1) {
 	                    System.out.print("* ");
