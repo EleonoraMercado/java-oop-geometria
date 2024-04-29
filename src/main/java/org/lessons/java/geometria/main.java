@@ -47,7 +47,7 @@ public class main {
 		
 		
 		//Stampo disegno
-		Rettangolo.disegnaRettangolo(base, altezza);
+		rettangolo.disegnaRettangolo();
 			scan.close();
 			
 			
